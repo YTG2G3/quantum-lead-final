@@ -9,7 +9,7 @@ Java implementation of finding whether a given directed graph is cyclic or acylc
 First line is the amount of vertices and edges spaced.  
 Starting from second line are the edges from A to B, directed.
 
-## Input Sample
+### Input Sample
 3 4  
 1 2  
 2 1  
