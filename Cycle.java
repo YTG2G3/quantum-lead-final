@@ -44,7 +44,6 @@ class Cycle {
 
         // Set vertices
         adj = new LinkedList[V + 1];
-        visited = new boolean[V + 1];
 
         // Create vertices
         for (int i = 1; i <= V; i++) {
@@ -70,6 +69,7 @@ class Cycle {
 
         // Checks for cycles
         for (int i = 1; i <= V; i++) {
+            visited = new boolean[V + 1];
             if (hasCycle(i)) {
                 System.out.println("The graph is cyclic!");
                 return;
